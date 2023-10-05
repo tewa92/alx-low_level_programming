@@ -1,11 +1,11 @@
 #include<stdio.h>
 /**
- *main -Entry point 
- * 
- *Retrun always 0(success)
+ *main - a program will print the line as puts function
+ *void - the default value for main
+ *Retrun -  must be always 0(success)
  */
-int main (void)
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle")
-	retrun (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
