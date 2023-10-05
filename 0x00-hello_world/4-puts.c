@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
  *main - a program will print the line as puts function
+ *
  *void - the default value for main
- *Retrun -  must be always 0(success)
+ *
+ *Return:  must be always 0(success)
  */
 int main(void)
 {
