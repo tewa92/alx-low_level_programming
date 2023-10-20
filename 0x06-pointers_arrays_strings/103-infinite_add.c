@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* rev_string - Reverse Array
+* rev_string - Reverse Of Array
 * @n: Integer In Params
 * Return: Value Is 0
 */
