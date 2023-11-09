@@ -8,9 +8,9 @@
 * @separator: The String To Be Printed Between Strings.
 * @n: The Number Of Strings Entered To The Function.
 * @...: A Variable Number Of Strings To Be Printed.
-*
-* Description For The Output: If Separator Is Null, Don’t Print It 
-•  If One Of The String Is Null, Print (Nil) Instead
+* Description For The Output:
+* If Separator Is Null, Don’t Print It
+* If One Of The String Is Null, Print (Nil) Instead
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
