@@ -19,8 +19,8 @@ else
 printf("[%u] %s\n", g->len, g->str);
 
 g = g->next;
-u++; 
+u++;
 }
 
-return u; 
+return (u); 
 }
