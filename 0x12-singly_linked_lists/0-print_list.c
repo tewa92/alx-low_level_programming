@@ -22,5 +22,5 @@ g = g->next;
 u++;
 }
 
-return (u); 
+return (u);
 }
