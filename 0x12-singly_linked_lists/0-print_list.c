@@ -4,7 +4,6 @@
 /**
 * print_list - Prints the elements of a linked list
 * @g: Pointer to the head of the linked list
-* @u: Size of the linked list
 * Return: Size of the linked list
 */
 size_t print_list(const list_t *g)
