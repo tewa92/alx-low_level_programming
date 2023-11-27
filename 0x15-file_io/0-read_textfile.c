@@ -3,7 +3,7 @@
 
 /**
 * read_textfile - Reads and writes the content of a file to
-* 		the standard output.
+*		the standard output.
 * @filename: The name of the file to read.
 * @letters: The number of letters to read and write.
 *
