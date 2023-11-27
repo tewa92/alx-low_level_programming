@@ -79,6 +79,5 @@ int main(int argc, char *argv[])
 	close_out = close(file_out);
 	if (close_out == -1)
 		__exit(100, NULL, file_out);
-
 	return (0);
 }
