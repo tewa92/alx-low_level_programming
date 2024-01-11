@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * dlistint_len - Returns the length of a doubly linked list.
+ * print_dlistint - Returns the length of a doubly linked list.
  * @h: Pointer to the head of the doubly linked list.
  * Return: The length of the doubly linked list.
  */
