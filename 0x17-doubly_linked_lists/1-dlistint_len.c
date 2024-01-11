@@ -1,19 +1,20 @@
 #include "lists.h"
 
 /**
- * dlistint_len - Returns the length of a doubly linked list.
- * @h: Pointer to the head of the doubly linked list.
- * Return: The length of the doubly linked list.
+ * dlistint_len - Return list len
+ * @h: struct list
+ * Return: list_len
  */
+
 size_t dlistint_len(const dlistint_t *h)
 {
-    size_t len = 0;
+	size_t len = 0;
+	int i = 0;
 
-    while (h)
-    {
-        len += 1;
-        h = h->next;
-    }
-
-    return (len);
+	for (i = 0; h; i++)
+	{
+		len += 1;
+		h = h->next;
+	}
+	return (len);
 }
