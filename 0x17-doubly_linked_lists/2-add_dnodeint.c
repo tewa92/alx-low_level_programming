@@ -3,9 +3,9 @@
 
 /**
  * add_dnodeint - Inserts a new element at the beginning
- * @head: pointer
- * @n: element in list
- * Return: new Element
+ * @head: Pointer to the head of the list.
+ * @n: Value of the new element.
+ * Return: Pointer to the new element.
  */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
