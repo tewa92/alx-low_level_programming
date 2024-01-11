@@ -24,7 +24,8 @@ dlistint_t *create_dnode(int n, dlistint_t *prev, dlistint_t *next)
 }
 
 /**
- * insert_dnodeint_at_index - Inserts a new node with given data at a specified position.
+ * insert_dnodeint_at_index - Inserts a new node with given data at a
+ *	specified position.
  * @h: Pointer to the head of the doubly linked list.
  * @idx: Index for the insertion of the new node.
  * @n: Data for the new node.
